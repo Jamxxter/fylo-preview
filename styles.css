@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    overflow-wrap: break-word;
+}
+p{
+    font-size: 16px;
+}
+#nav-list{
+    color: black;
+}
+#nav-list:hover{
+    transition: 0.2s;
+    color: blue;
+}
+p{
+    font-family: sans-serif;
+}
+#bkg-2{
+    width: 100%;
+    position: relative;
+    bottom: 7rem;
+}
+.second-hero{
+    margin-top: 10rem;
+    background-color: hsl(240, 75%, 98%);
+}
+
+p{
+    width: 80%;
+}
+span{
+    text-decoration: none;
+    
+}
+.icon-link{
+    text-underline-offset: 0.4rem;
+    color:hsl(170, 20%, 43%);
+    text-decoration-thickness: 2px;
+}
+.how-it-works:hover{
+    color: hsl(170, 20%, 43%);
+    text-decoration: none;
+}
+#how-it-works{
+    gap: 5rem;
+}
+.testimonial-logo{
+    border-radius: 100%;
+    width: 40px;
+}
+#card-1{
+    border-radius: 8px;
+    box-shadow: -3px 1px 15px 1px rgba(0,0,0,0.25);
+-webkit-box-shadow: -3px 1px 15px 1px rgba(0,0,0,0.25);
+-moz-box-shadow: -3px 1px 15px 1px rgba(0,0,0,0.25);
+}
+.card-text{
+    width: 100%;
+}
+#testimonial-container{
+    margin: 0;
+    padding: 0;
+}
+#testimonial-text{
+    margin-top: 6px;
+    margin-left: -12px;
+}
+#testimonial-text h4{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#testimonial-text h5{
+    font-size: 10px;
+}
+.third-hero{
+    background-color: hsl(238, 22%, 44%);
+}
+.third-hero-p{
+    font-weight: lighter;
+    color: lightgray;
+}
+.fourth-hero{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.fourth-hero a{
+    color: white;
+    text-decoration: none;
+}
+.phone-col{
+    margin-right: 1.5rem;
+}
+.email-col{
+    margin-right: 1.5rem;
+}
+.fylo-2nd-logo{
+    margin-bottom: 10px;
+    filter: invert(50%) sepia(290%) brightness(200%) contrast(200%);
+    width: 50%;
+}
+.fa-facebook{
+  color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+#footer-col-1{
+    line-height: 2.4rem;
+}
+#footer-col-2{
+    line-height: 2.4rem;
+    margin-top: -1rem;
+}
+.fa{
+    border: 1px solid white;
+    border-radius: 100%;
+    text-decoration: none;
+    width: 27px;
+    height: 27px;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.fa-twitter-f:before, .fa-twitter:before {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.fa-instagram-f:before, .fa-instagram:before {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.creator{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+    text-align: center;
+}
